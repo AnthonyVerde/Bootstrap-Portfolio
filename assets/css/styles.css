@@ -18,6 +18,7 @@ body {
     padding: 0;
 }
 
+
 #top-nav-logo {
     padding: 0;
 }
@@ -25,6 +26,7 @@ body {
 .navbar {
     margin: auto;
     background: #4aaaa5;
+    text-align: center;
 }
 
 .navbar-brand {
@@ -206,4 +208,11 @@ textarea {
     font-size: 12px;
     color: #fff;
     text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    #nav-container {
+        position: fixed;
+        z-index: 5;
+    }
 }
