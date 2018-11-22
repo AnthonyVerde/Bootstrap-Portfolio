@@ -215,4 +215,8 @@ textarea {
         position: fixed;
         z-index: 5;
     }
+
+    #main-content-container {
+        padding-top: 120px;
+    }
 }
