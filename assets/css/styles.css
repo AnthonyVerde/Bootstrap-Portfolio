@@ -54,6 +54,7 @@ body {
     margin: auto;
     padding: 0;
     background: white;
+    border-bottom: 4px solid #ddd;
 }
 
 h1 {
@@ -61,7 +62,7 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
-    color: #666;
+    color: #4aaaa5;
 }
 
 #main-content {
